@@ -18,10 +18,11 @@ public class Kali {
          if ((a > 0) && (b > 0)){
                 for (int i=1; i<=b; i++ ){
                     jml=jml+a;}
-                   // System.out.println("Hasil kali = "+jml);
+                   System.out.println("Hasil kali = "+jml);
          
          }
          return a*b;
+         
      }
     
      public double kalinegatif(int a, int b){
